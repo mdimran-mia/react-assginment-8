@@ -1,0 +1,28 @@
+.nav-link {
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: color 0.3s, border 0.3s, background-color 0.3s;
+    font-weight: 500;
+    color: #333;
+}
+
+.nav-link:hover {
+    background-color: rgba(50, 142, 255, 0.15);
+}
+
+.nav-link.active {
+    border: 2px solid #23BE0A !important;
+    color: #23BE0A !important;
+    background-color: #f0f0f0 !important;
+}
+
+.navbar .btn {
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn:hover {
+    background-color: #197f3c;
+    color: #ffffff;
+}
